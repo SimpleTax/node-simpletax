@@ -1,0 +1,31 @@
+{
+  "name": "node-simpletax",
+  "version": "0.0.1",
+  "description": "Node.js wrapper for SimpleTax (gosimpletax.com) API",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Leftfield/node-simpletax.git"
+  },
+  "keywords": [
+    "simpletax",
+    "tax",
+    "financial",
+    "oauth2"
+  ],
+  "author": "Celso Pinto <celso@gosimpletax.com> (https://www.gosimpletax.com/)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/Leftfield/node-simpletax/issues"
+  },
+  "homepage": "https://github.com/Leftfield/node-simpletax",
+  "dependencies": {
+    "request" : ">=2.34.0"
+  }
+}
